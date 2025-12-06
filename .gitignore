@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Vite 캐시 (빌드 산출물 아님, 배포 제외)
+.vite
+
+# 환경 변수/비밀 키 (배포 시 포함 금지)
+.env
+.env.*
+
+# 테스트/커버리지 아티팩트 (배포 제외)
+coverage
+.nyc_output
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 내가 확인할 것들
+ARCHITECTURE.md
+배포가이드.md
+preview.png
